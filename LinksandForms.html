@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2: Links and Forms</title>
+</head>
+<body>
+   <h1>Lab 2: Links and Forms</h1>
+   <p>Created by: Nicholas O'Quinn</p>
+   <h2>Python Links</h2>
+   <p>(These links all open in a new window)</p>
+   <ul>
+       <a href="https://realpython.com/" target="_blank"><li>RealPython</li></a>
+       <a href="https://docs.python.org/3/" target="_blank"><li>Python 3.9.1 documentation</li></a>
+       <a href="https://xkcd.com/353/" target="_blank"><li>xkcd Python comic</li></a>
+   </ul> 
+   <h3>Contest Form</h3>
+   <h4>Enter to win:</h4>
+   <form action="/contest">
+    <input type="text" placeholder="First Name" required>
+    <input type="text" placeholder="Last Name" required>
+    <input type="text" placeholder="Email" required>
+    <p>How did you find out about us?</p>
+    <label for="friend"><input id="friend" type="radio" name="discovery" value="friend" checked>Friend</label>
+    <label for="online"><input id="online" type="radio" name="discovery" value="online"> Online</label>
+    <label for="other"><input id="Other" type="radio" name="discovery" value="other"> Other</label>
+    <p>Answer this skill testing question correctly for a chance to win: 2 + 2 = ??</p>
+    <input type="text" placeholder="Enter Answer" required><button type="submit">Submit</button>
+   </form>
+</body>
+</html>
