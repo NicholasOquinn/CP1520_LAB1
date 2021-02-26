@@ -1,0 +1,33 @@
+#header-text{ 
+    color:rgb(0, 0, 0);    
+    font-family: 'Oi', cursive;
+}
+
+p{
+    font-family: 'Source Code Pro', monospace;  
+}
+
+.unordered-list{
+    border-color: rgb(122, 122, 122);
+    border-style: solid;
+    border-width: 20px;
+}
+
+body{
+    background-color: rgb(203, 211, 93);
+}
+
+#drake-meme{
+    width:30%;
+}
+
+#form-para{
+    color:rgb(255, 255, 255);
+}
+
+form{
+    background-color: black;
+}
+
+
+

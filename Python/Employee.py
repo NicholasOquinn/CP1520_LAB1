@@ -22,7 +22,7 @@ class WageEmployee(Employee):
     def __init__(self, first_name, last_name, employee_ID, hourly_wage, weekly_hours):
         super().__init__(first_name, last_name, employee_ID)
         self.hourly_wage = hourly_wage
-        self.weekly_hours = weekly_hours
+        self.weekly_hours = weekly_hours 
 
     def weekly_earnings(self):
         return (self.hourly_wage * self.weekly_hours)
